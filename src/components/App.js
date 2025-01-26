@@ -7,8 +7,8 @@ function App() {
   const { name, image, about, posts } = blogData;
 
   return (
-    <div className="App"> {/* Ensure this class is on the root div */}
-      <header> {/* Ensure this element exists */}
+    <div className="App">
+      <header>
         <h1>{name}</h1>
       </header>
       <aside>
